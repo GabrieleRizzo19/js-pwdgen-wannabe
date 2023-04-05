@@ -6,7 +6,7 @@ function password_generator(){
     let lname = prompt("Inserisci il tuo cognome");
     let preferred_color = prompt("Inserisci il tuo colore preferito");
 
-    if(fname == null || lname == null || preferred_color == null){
+    if(fname == null || fname == "" || lname == null || lname == "" || preferred_color == null || preferred_color == ""){
         alert("Impossibile generare password");
     }
     else{
